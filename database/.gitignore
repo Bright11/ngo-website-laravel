@@ -1,0 +1,3 @@
+*.sqlite*
+/app/Http/Controller/admin
+/resources/views/admin

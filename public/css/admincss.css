@@ -1,0 +1,198 @@
+body,
+* {
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+}
+:root {
+    ---background-color: aqua;
+}
+.adminheader {
+    margin: 10px 0px;
+    height: 30px;
+    box-shadow: 0 0 5px;
+}
+.adminheader ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.admin--content-dashboard {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.admin-sidar-holder {
+    flex: 2;
+    box-shadow: 0 0 5px;
+    height: 1000px;
+    width: 100%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+    padding: 10px;
+}
+.admin-sidar-holder ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+.admin-sidar-holder ul li {
+    box-shadow: 0 0 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.admin-sidar-holder ul li:hover {
+    background-color: gray;
+
+    cursor: pointer;
+}
+.admin-sidar-holder ul li a {
+    text-decoration: none;
+    color: black;
+}
+.admin-sidar-holder ul li:hover a {
+    color: white !important;
+}
+.admin-main-content {
+    flex: 8;
+}
+
+.blogform-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.formadmin button {
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: aqua;
+}
+::-webkit-file-upload-button {
+    /* display: none; */
+    border: none;
+    background-color: aqua;
+    color: black;
+}
+
+/* event design */
+we .event-table {
+    box-shadow: 0 0 5px;
+    padding: 8px;
+}
+.event-table .table thead {
+    background-color: aqua;
+}
+.event-table .table tbody {
+    border: 0px;
+}
+.event-table .table tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: aqua;
+    /* border-style: solid; */
+    border-width: 0;
+}
+
+/* the end */
+
+.admin-main-content li {
+    list-style: none;
+    background-color: aqua;
+    width: fit-content;
+    box-shadow: 0 0 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 5px 0px;
+}
+.admin-main-content li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* forms */
+
+.admin-main-content .formadmin {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0px 6px;
+}
+
+.admin-main-content .formadmin input,
+select,
+textarea {
+    padding: 10px;
+    box-shadow: 0 0 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    /* border-radius: var(--ck-border-radius);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; */
+    min-height: 200px;
+    box-shadow: 0 0 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.table img {
+    width: 100px;
+}
+
+.adminheader ul li {
+    list-style: none;
+}
+
+.adminheader ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.admin-delete {
+    padding: 10px;
+    background-color: var(---background-color);
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    text-decoration: none;
+}
+.admin-delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.admin-edit {
+    background-color: yellowgreen;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    text-decoration: none;
+}
+.admin-edit:hover {
+    background-color: red;
+    color: white;
+}
